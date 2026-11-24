@@ -1,0 +1,229 @@
+
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Personal Trainer | Studio Fitness</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header>
+    <div class="container nav">
+        <h1>FIT<span>PERSONAL</span></h1>
+
+        <nav>
+            <a href="#inicio">Início</a>
+            <a href="#sobre">Sobre</a>
+            <a href="#servicos">Serviços</a>
+            <a href="#cadastro">Cadastro</a>
+            <a href="#planos">Treinos</a>
+            <a href="#contato">Contato</a>
+        </nav>
+    </div>
+</header>
+
+<section class="hero" id="inicio">
+    <div class="container hero-content">
+
+        <div>
+            <span class="tag">PERSONAL TRAINER</span>
+
+            <h2>Sua evolução começa com uma decisão.</h2>
+
+            <p>
+                Treinamentos personalizados, acompanhamento
+                individual e planejamento para seus objetivos.
+            </p>
+
+            <a href="#cadastro" class="btn">COMECE AGORA</a>
+        </div>
+
+        <div class="hero-card">
+            <h3>SEU FOCO.</h3>
+            <h3>SUA DISCIPLINA.</h3>
+            <h3 class="green">SUA EVOLUÇÃO.</h3>
+            <p>Treinamento pensado para você.</p>
+        </div>
+
+    </div>
+</section>
+
+<section id="sobre" class="section">
+    <div class="container">
+        <span class="tag">QUEM SOU</span>
+
+        <h2 class="title">Sobre meu trabalho</h2>
+
+        <p class="description">
+            Meu trabalho é oferecer acompanhamento personalizado,
+            respeitando as necessidades, os objetivos e a experiência
+            de cada aluno. Cada planejamento é desenvolvido de
+            maneira individual.
+        </p>
+    </div>
+</section>
+
+<section id="servicos" class="section dark">
+    <div class="container">
+
+        <span class="tag">O QUE OFEREÇO</span>
+        <h2 class="title">Meus serviços</h2>
+
+        <div class="cards">
+
+            <div class="card">
+                <div class="icon">🏋️</div>
+                <h3>Treino individual</h3>
+                <p>Planejamento personalizado para cada aluno.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">📋</div>
+                <h3>Acompanhamento</h3>
+                <p>Organização e acompanhamento da evolução.</p>
+            </div>
+
+            <div class="card">
+                <div class="icon">🎯</div>
+                <h3>Orientação física</h3>
+                <p>Orientação profissional durante os exercícios.</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+<section id="cadastro" class="section">
+    <div class="container">
+
+        <span class="tag">FAÇA PARTE</span>
+        <h2 class="title">Cadastro de alunos</h2>
+
+        <p class="description">
+            Preencha seus dados para iniciar seu acompanhamento.
+        </p>
+
+        <form class="form">
+
+            <div class="form-grid">
+
+                <div>
+                    <label>Nome completo</label>
+                    <input type="text" placeholder="Digite seu nome" required>
+                </div>
+
+                <div>
+                    <label>Idade</label>
+                    <input type="number" placeholder="Sua idade" required>
+                </div>
+
+                <div>
+                    <label>Telefone / WhatsApp</label>
+                    <input type="tel" placeholder="(00) 00000-0000" required>
+                </div>
+
+                <div>
+                    <label>E-mail</label>
+                    <input type="email" placeholder="seuemail@email.com">
+                </div>
+
+                <div>
+                    <label>Objetivo</label>
+                    <select>
+                        <option>Selecione seu objetivo</option>
+                        <option>Condicionamento físico</option>
+                        <option>Melhorar força</option>
+                        <option>Saúde e bem-estar</option>
+                        <option>Mobilidade</option>
+                        <option>Outro</option>
+                    </select>
+                </div>
+
+                <div>
+                    <label>Experiência</label>
+                    <select>
+                        <option>Iniciante</option>
+                        <option>Intermediário</option>
+                        <option>Avançado</option>
+                        <option>Estou retornando</option>
+                    </select>
+                </div>
+
+                <div class="full">
+                    <label>Dias disponíveis</label>
+                    <input type="text" placeholder="Ex: Segunda, quarta e sexta">
+                </div>
+
+                <div class="full">
+                    <label>Observações</label>
+                    <textarea rows="5" placeholder="Conte um pouco sobre sua rotina..."></textarea>
+                </div>
+
+            </div>
+
+            <button type="submit" class="btn">ENVIAR CADASTRO</button>
+
+        </form>
+    </div>
+</section>
+
+<section id="planos" class="section dark">
+    <div class="container">
+
+        <span class="tag">ÁREA DO PERSONAL</span>
+        <h2 class="title">Planos de treino individuais</h2>
+
+        <p class="description">
+            Espaço para organizar o planejamento de cada aluno.
+        </p>
+
+        <div class="form">
+
+            <label>Nome do aluno</label>
+            <input type="text" placeholder="Digite o nome do aluno">
+
+            <label>Nome do plano</label>
+            <input type="text" placeholder="Ex: Plano personalizado">
+
+            <label>Descrição do planejamento</label>
+            <textarea rows="8" placeholder="Registre os exercícios, dias de treino e orientações definidas após avaliação individual."></textarea>
+
+            <label>Data de revisão</label>
+            <input type="date">
+
+            <button type="button" class="btn">
+                SALVAR PLANO
+            </button>
+
+        </div>
+    </div>
+</section>
+
+<section id="contato" class="section">
+    <div class="container contact">
+
+        <span class="tag">FALE COMIGO</span>
+
+        <h2 class="title">Vamos começar?</h2>
+
+        <p>Entre em contato e conheça meus serviços.</p>
+
+        <p><strong>WhatsApp:</strong> (00) 00000-0000</p>
+        <p><strong>Instagram:</strong> @seuinstagram</p>
+        <p><strong>E-mail:</strong> seuemail@email.com</p>
+
+    </div>
+</section>
+
+<footer>
+    <p>© 2026 FIT PERSONAL - Todos os direitos reservados.</p>
+    <p>Seu objetivo, sua evolução!</p>
+</footer>
+
+</body>
+</html>
